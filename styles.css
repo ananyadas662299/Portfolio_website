@@ -1,0 +1,189 @@
+:root{
+  --primary-color: white;
+  --secondary-color: black;
+ 
+}
+.dark-theme{
+  --primary-color: black;
+  --secondary-color: white;
+}
+
+
+
+body{
+  background-color: var(--primary-color);
+}
+
+
+#container1{
+  background: #ef32d9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+.navbar-brand{
+  font-family: 'Pacifico', cursive;
+  font-size :2rem;
+  padding:0;
+  margin:0;
+}
+.about{
+  padding-left: 1rem;
+}
+
+
+h1{
+  font-size: 4rem;
+  
+font-family: 'Chela One', cursive;
+color: #5a1b70;
+word-spacing: 4%;
+}
+
+h2{
+  font-size: 2rem;
+  margin-top: 0.4px;
+  
+  font-family: 'Cormorant', serif;
+  word-spacing: 2%;
+
+}
+
+.abc{
+  width: 50%;
+  text-align: center;
+}
+
+.front{
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  float: right;
+  margin-right: 100px;
+}
+
+#container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+.xyz{
+  width: 50%;
+  text-align: center;
+ 
+  
+  padding-top: 176px;
+
+  padding-right: 16px;
+
+}
+.aboutme{
+  font-size: 4rem;
+  margin-top: 0.4px;
+  
+  font-family: 'Cormorant', serif;
+
+color: var(--secondary-color);
+word-spacing: 4%;
+}
+p{
+  color: var(--secondary-color);
+  word-spacing: 2%;
+}
+
+.carousel-item{
+  height: 500px;
+  width: 1000px;
+}
+
+.shots{
+  font-size: 4rem;
+  margin-top: 0.4px;
+  
+  font-family: 'Cormorant', serif;
+padding-left: 16px;
+padding-bottom: 4px;
+color: var(--secondary-color);
+text-align: center;
+word-spacing: 4%;
+
+}
+.container3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+.service{
+  font-size: 4rem;
+  margin-top: 0.4px;
+
+  
+  font-family: 'Cormorant', serif;
+color: var(--secondary-color);
+text-align: center;
+word-spacing: 4%;
+
+}
+.container5{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.card{
+  height: 200px;
+  width: 230px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: var(--primary-color);
+  
+}
+.card-img-top{
+  height: 200px;
+  width: 230px;
+  
+}
+#myservice{
+  padding-left: 1rem;
+  height: 100vh;
+  
+}
+.card-title{
+  text-align: center;
+  color: var(--secondary-color);
+}
+#icon{
+  height :25px;
+  width : 25px;
+  cursor: pointer;
+}
+#container4{
+  height: 100vh;
+  text-decoration-color: var(--secondary-color);
+}
+.text-center{
+  color: var(--secondary-color);
+}
+
+.submit1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.aboutmepic{
+  height: 400px;
+}
